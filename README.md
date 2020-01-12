@@ -53,7 +53,7 @@ end
 
 Add a using statement `use Arc.Ecto.Schema` to the top of your ecto schema, and specify the type of the column in your schema as `MyApp.Avatar.Type`.
 
-Attachments can subsequently be passed to Arc's storage though a Changeset `cast_attachments/3` function, following the syntax of `cast/3`
+Attachments can subsequently be passed to Arc's storage through Changeset `cast_attachments/3` function, following the syntax of `cast/3`
 
 ```elixir
 defmodule MyApp.User do
